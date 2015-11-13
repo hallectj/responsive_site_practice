@@ -1,0 +1,92 @@
+.sss {
+	height: 0;
+	margin: 0; 
+	padding: 0;
+	position: relative;
+	display: block;
+	overflow: hidden;
+}
+
+.ssslide {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: none;
+	overflow: hidden;
+}
+
+.ssslide img {
+	max-width: 100%;
+	height: auto;
+	margin: 0;
+	padding: 0;
+	position: relative;
+	display: block;
+}
+
+.sssnext, .sssprev {
+	width: 25px;
+	height: 100%;
+	margin: 0;
+	position: absolute;
+	top: 0;
+	background: url('images/arr.png') no-repeat;
+}
+
+.sssprev {
+	left: 3%;
+	background-position: 0 50%;
+}
+
+.sssnext {
+	right: 3%;
+	background-position: -26px 50%;
+}
+
+.sssprev:hover, .sssnext:hover {
+	cursor: pointer;
+}
+
+.just_text{
+	background-color: #C534FF;
+}
+
+.just_text h3{
+	margin-top: 1%;
+	font-family: Pacifico;
+	text-align: center;
+}
+
+#banner{
+	margin-top: 3%;
+	overflow: hidden;
+}
+
+#banner .caption{
+	display: block;
+	font-family: Verdana, Geneva, sans-serif;
+	text-align: center;
+	background-color: #440077;
+	color: #FF1;
+}
+
+.just_text p{
+	font-family: Arial, Tahoma;
+	font-weight: 300;
+	text-align: center;
+}
+
+
+.customSlide{
+    background-color: rgba(129, 12, 192, .7);
+    margin: 0 auto;
+    color: #fff;
+}
+
+.customSlide p{
+    border: 1px solid rgb(22, 45, 12);
+    background-color: rgba(22, 45, 12, 0.3);
+}

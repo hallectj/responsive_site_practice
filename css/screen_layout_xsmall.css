@@ -1,0 +1,132 @@
+body{
+   padding: 0px;
+   margin: 0px;
+   position: relative;
+}
+
+#page-wrapper{
+    position: relative;
+    margin: 0 auto;
+    width: 100%;
+    clear: both;
+    overflow: hidden;
+}
+
+/*Rearrange HTML Elements for responsive design CSS trick*/
+#page-wrapper{display: table;}
+#two{display: table-header-group;}
+#main{display: table-footer-group;}
+
+.logo{
+    text-align: center;
+    width: 92%;
+    margin: 0 auto;
+}
+
+.logo img{
+    width: 75%;
+    height: 125px;
+    margin: 2% 5%;
+    padding: 1%;
+}
+.mainHeader{
+    width: 100%;
+}
+
+#two{
+    width: 100%;
+}
+
+#main{
+    width: 100%;
+}
+
+.mainHeader nav{
+    font-family: 'Pacifico', cursive;
+    font-size: 1.3em;
+}
+
+header nav ul{
+    list-style-type: none;
+    margin: 0 auto;
+}
+
+header nav ul li{
+    background-color: #6A1B91;
+}
+
+header nav ul li a{
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    color: #FFF;
+    text-decoration: none;
+}  
+.mainHeader nav ul{
+    padding-left: 0;
+}
+    
+.mainHeader nav ul li{
+    width: 100%;
+    text-align: center;
+}
+    
+.mainHeader nav ul li a:link,
+.mainHeader nav ul li a:visited {
+   padding: 10px 25px;
+   height: 20px;
+   display: block;
+}    
+
+header nav li a:hover, header nav li a:active,
+header nav li.active a:link, header nav li.active a:visited{
+    background-color: rgb(122, 34, 200);
+    text-shadow: none;
+}
+
+
+#leftSideBar{
+    width: 60%;
+    margin: 2% auto;
+}
+
+
+
+.welcome img{
+    height: 40%;
+    width: 40%;
+}
+
+.social img{
+    height: 45px;
+    width: 45px;
+}
+
+#banner{
+    margin: 2% auto;
+    background-color: rgba(122, 34, 200, .7);
+    overflow: hidden;
+}
+
+.sidebar_articles p{
+    width: 90%;
+}
+
+.promo > img:nth-of-type(1){
+    height: 60%;
+    width: 55%;
+}
+
+.promo{
+    border:  2px solid purple;
+}
+
+footer{
+    background-color: #6A1B91;
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}

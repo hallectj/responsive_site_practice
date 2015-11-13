@@ -1,0 +1,63 @@
+@charset "UTF-8";
+
+html{
+    background: url(../images/crossword.png) 0px 0px;
+}
+
+body{
+    color: #000305;
+    line-height: 1.5em;
+    font-family: Tahoma, Arial, sans-serif;
+    font-size: 14px;
+    background: url(../images/pageglare.png) repeat-x 0px 0px;
+    position: relative;
+}
+
+#page-wrapper{
+    position: relative;
+}
+h1{font-size: 2em; font-weight: normal; color: #6A1B91; margin: 0 .5em 0 0;}
+h2{font-size: 1.7em; font-weight: bold; margin: 0 0 1em 0;}
+h3{font-size: 1.5em; font-weight: bold; margin: 0 0 1em 0;}
+p{margin: 0 0 .75em 0; }
+a{color: #6A1B91;}
+a:hover{color: #009eff;}
+
+.sidebar_articles{
+   font-size: 1.1em;
+   text-decoration: none;
+   margin: .5em 0 .7em 0;
+}
+
+.sidebar_articles h2{
+    color:  #6A1B91;
+}
+
+.promo h3{font-size: 1.1em; margin: 0; text-align: center;}
+.promo p{line-height: 1.3em; font-size: .9em; margin-bottom: .5em;}
+.promo:nth-of-type(1) > p:nth-of-type(1){text-align: center;}
+.promo > img:nth-of-type(1){height: 125px; width: 125px; margin: 10px auto; display: block;}
+.promo a img:nth-of-type(1){
+    display: block;
+    height: 40px;
+    width: 120px;
+    margin: 20px auto;
+}
+
+#containBoxes .promo h3{
+    border: 2px solid black;
+    background-color: #C534FF;
+    text-align: center;
+    width: 80%;
+    margin: 3% 7%;   
+}
+
+#containBoxes ul li{
+    list-style-image: url(../images/dumbbell_icon.png);
+}
+
+.social img{height: 40px; width: 40px;}
+
+#leftSideBar{margin-top: 15px;}
+
+#mainFooter{color: #fff;}

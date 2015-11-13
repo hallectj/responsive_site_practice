@@ -1,0 +1,160 @@
+body{
+   padding: 0px;
+   margin: 0px;
+}
+
+#page-wrapper{
+    margin: 0 auto;
+    width: 90%;
+    clear: both;
+    overflow: hidden;
+}
+
+/*Rearrange HTML Elements for responsive design CSS trick*/
+#page-wrapper{display: table;}
+#two{display: table-header-group;}
+#main{display: table-footer-group;}
+
+.logo{
+    text-align: center;
+    width: 92%;
+    margin: 0 auto;
+}
+
+.logo img{
+    width: 75%;
+    height: 125px;
+    margin: 2% 5%;
+    padding: 1%;
+}
+
+.mainHeader nav{
+    font-family: 'Pacifico', cursive;
+    font-size: 1.3em;
+    width: 90%;
+    margin: 0 auto;
+}
+
+header nav ul{
+    list-style-type: none;
+    margin: 0 auto;
+}
+
+header nav ul li{
+    background-color: #6A1B91;
+}
+
+header nav ul li a{
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    color: #FFF;
+    text-decoration: none;
+}  
+.mainHeader nav ul{
+    padding-left: 0;
+}
+    
+.mainHeader nav ul li{
+    width: 100%;
+    text-align: center;
+}
+    
+.mainHeader nav ul li a:link,
+.mainHeader nav ul li a:visited {
+   padding: 10px 25px;
+   height: 20px;
+   display: block;
+}    
+
+header nav li a:hover, header nav li a:active,
+header nav li.active a:link, header nav li.active a:visited{
+    background-color: rgb(122, 34, 200);
+    text-shadow: none;
+}
+
+.welcome p{
+    margin-right: 2%;
+}
+
+.welcome img{
+    height: 70%;
+    width: 70%;
+    margin: 2%;
+}
+
+.sidebar_articles > div{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.social div{
+    width: 50%;
+    margin: 2% auto;
+}
+
+.social img{
+    height: 45px;
+    width: 45px;
+}
+
+#main{
+    width: 85%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+#leftSideBar{
+    width: 85%;
+    margin: 0 auto;
+}
+
+#containBoxes{
+    margin-top: 4%;
+}
+
+.sidebar_articles{
+    margin: 0 auto;
+}
+
+.sidebar_articles p{
+    width: 90%;
+    margin: 3% auto;
+    padding-top: 3%;
+}
+
+.sidebar_articles h2{
+    margin-top: 2%;
+    text-align: center;
+}
+
+.sidebar_articles img{
+    margin: 0 auto;
+}
+
+#containBoxes{
+    margin-left: 3.5%;
+    margin-top: 1.5%;
+}
+
+.promo > img:nth-of-type(1){
+    height: 80%;
+    width: 75%;
+}
+
+.promo{
+    margin-right: 1%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    border:  5px solid purple;
+}
+
+footer{
+    background-color: #6A1B91;
+    width: 86%;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}

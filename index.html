@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Ronnie's Gym</title>
+    <meta http-equiv="content-type" content="text/html" charset="utf-8">
+    <meta name="viewport" content="width=device-width, maximum-scale=1.0 minimum-scale=1.0, intial-scale=1.0" /> 
+    <!-- universal styles good for all sizes -->
+    <link rel="stylesheet" type="text/css" href="css/screen_styles.css" />
+    <!-- sss slider css -->
+    <link rel="stylesheet" type="text/css" href="sss/sss.css" media="all">
+    
+    <!-- responsiveness css styling -->
+    <link rel="stylesheet" type="text/css" media="only screen and (min-width: 50px) and (max-width: 500px)" href="css/screen_layout_xsmall.css" />
+    <link rel="stylesheet" type="text/css" media="only screen and (min-width: 501px) and (max-width: 800px)" href="css/screen_layout_small.css" />
+    <link rel="stylesheet" type="text/css" media="only screen and (min-width: 801px) and (max-width: 957px)" href="css/screen_layout_med.css" />
+    <link rel="stylesheet" type="text/css" media="only screen and (min-width: 958px)" href="css/screen_layout_large.css" />
+
+    
+    <!-- Custom or Google Fonts here -->    
+    <link href='http://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+    
+    <!-- library javascript followed by my own scripts-->
+    <!--[if lt IE 9]>
+       <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->   
+    
+    <script type="text/javascript" src="js/windowsize.js"></script>
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="sss/sss.min.js"></script>
+    
+    <script type="text/javascript">
+       $(document).ready(function(){
+          $('.slider').sss({
+             speed: 6500,
+             arrows: false
+          });
+       });
+    </script>
+    
+</head>
+
+<body class="body" onresize="getWinSize()">
+<div id="head-wrapper">
+    <header class="mainHeader">
+        <div class="logo"><img src="images/ronnie2.png" alt="company logo"/></div>
+        <nav>
+            <ul>
+                <li><a class="active" href="#">Home</a></li>
+                <li><a href="#">Our Gym </a></li>   
+                <li><a href="#">Classes</a></li>
+                <li><a href="#">Members</a></li>
+                <li><a href="#">Contact </a></li>
+            </ul>
+        </nav>
+    </header>
+</div>
+    
+    <div id="page-wrapper">
+        <div id="leftSideBar">
+            <article class="welcome sidebar_articles">
+                <h2>Welcome!</h2>
+                <div>
+                    <img src="images/female1.png" alt="welcome" />
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam pharetra, tellus sit
+                    amet congue vulputate, nisi erat iaculis nibh, vitae feugiat sapien ante eget.</p>
+                </div>
+            </article>
+            
+            <article class="hours sidebar_articles">
+                <h2>Working Hours</h2>
+                
+                <div>
+                    <p><strong>MON - FRI</strong> 5:00 AM to 11:00 PM
+                    <br /><strong>SAT - SUN</strong> 7:00 AM to 8:00 PM</p> 
+                </div>
+            </article>
+            
+            <article class="location sidebar_articles">
+                <h2>Location</h2>
+                <div>
+                <p>Located next to "Botta-bing Bowling Alley" in the Cedar Creek Shopping Center</p>
+                    <p>1212 Main Street<br />
+                    Anytown, LA 12345-6789<br />
+
+                    T: (555) 123 - 4567<br />
+                    F: (555) 523 - 4567<br />
+
+                    W: <a class="cta" href="http://www.domain.com">http://www.domain.com</a><br />
+                    E: <a class="cta" href="mailto:email@domain.com">email@domain.com</a></p>
+                </div>    
+            </article>
+            
+            <article class="social sidebar_articles">
+                <header>
+                    <h2>Follow Us!</h2>
+                    <div>
+                       <tr><a href="#"><img src="images/facebook.png"></a></tr>
+                       <tr><a href="#"><img src="images/twitter.png"></a></tr>
+                       <tr><a href="#"><img src="images/google+.png"></a></tr>
+                    </div>
+                </header>    
+            </article>
+        </div>
+        
+        <div id="two">
+            <div id="banner">
+                <div class="slider">
+                   <img src="images/zumba.jpg" />
+                   <img src="images/dumbbells.jpg" />
+                   <div class="just_text customSlide">
+                      <h3>Free Trial Period</h3>
+                      <p>Try Ronnie's gym free all weekend long Novemeber 13 - 16, 2015.<p> 
+                      <p>For current members, bring a friend and receive a referral bonus, see the front desk for more details.</p>
+                   </div>
+                   <div><img src="images/spinClass.jpg" /><span class="caption">Spin classes are held every Friday</span></div>
+                </div>
+            </div>
+        </div>
+        
+        <section id="main">
+        <!-- original banner locale -->
+            
+            <div id="containBoxes">
+                <div class="promo">
+                    <h3>Store</h3>
+                    <p>Latest Sale Item</p>
+                    <img src="images/drinkHealthy.jpg" class="sale_item" alt="feature item">
+                    <a href="#" class="cta"><img class="storeButton" src="images/button.png" /></a>
+                </div>
+                
+                <div class="promo">
+                    <h3>Classes</h3>
+                    <p></p>
+                    <ul>
+                        <li>Yoga</li>
+                        <li>Zumba</li>
+                        <li>Spin Class</li>
+                        <li>Pilates</li>
+                        <li>Brazilian Ju Jitsu</li>
+                        <p>And much much more</p>
+                    </ul>
+                </div>
+                
+                <div class="promo">
+                    <h3>Programs</h3>
+                    <ul>
+                       <li>Daycare for the kids</li>
+                       <p>We have an area set aside in our facility for kids...</p>
+                       <li>Spa Treatment</li>
+                       <p>Enjoy and Relax with our Full Spa Treatment...</p>
+                       <li>Health Foods Store</li>
+                       <p>Supplements, Snacks, and more</p>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </div>
+            
+    <footer id="mainFooter">
+        <p>Footer</p>
+        <address>&copy; Ronnie's Gym 1212 Main Street| Anytown LA| 12345</address>
+    </footer>
+    
+    <script type="text/javascript">
+        function dynamicCopyright(){
+           var date = new Date();
+           var currentYear = date.getFullYear();
+           var str = document.getElementById("mainFooter").getElementsByTagName("address")[0];
+           var copy = str.innerHTML.indexOf("\251");
+           var beforeCopy = str.innerHTML.substr(0, copy + 2);  //in case there is text before copyright symbol, not usually though
+           var afterCopy = str.innerHTML.substr(copy + 1, str.innerHTML.length);
+           str.innerHTML = beforeCopy + currentYear + afterCopy;  //dynamic insertion of current year.
+        }
+        
+        dynamicCopyright();
+    </script>
+</body>
+</html>

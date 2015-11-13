@@ -1,0 +1,175 @@
+body{
+   padding: 0px;
+   margin: 0px;
+}
+
+#page-wrapper{
+    margin: 0 auto;
+    width: 90%;
+    clear: both;
+    overflow: hidden;
+}
+
+.logo{
+    text-align: center;
+    width: 92%;
+    margin: 0 auto;
+}
+
+.logo img{
+    width: 75%;
+    height: 125px;
+    margin: 2% 5%;
+    padding: 1%;
+}
+
+header nav{
+    background-color: #6A1B91;
+    height: 40px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    clear: both;
+    font-family: 'Pacifico', cursive;
+    font-size: 20px;
+    padding: 2px;
+}
+
+header nav ul{
+    list-style-type: none;
+    margin: 0 auto;
+}
+
+header nav ul li{
+    display: inline;
+    
+}
+
+header nav ul li a:link, header nav ul li a:visited {
+    color: #FFF;
+    display: inline-block;
+    padding: 10px 25px;
+    height: 20px;
+    text-decoration: none;
+    
+}
+
+header nav li a:hover, header nav li a:active,
+header nav li.active a:link, header nav li.active a:visited{
+    background-color: rgb(122, 34, 200);
+    text-shadow: none;
+}
+
+header nav ul li a{
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+
+#leftSideBar{
+    width: 25%;
+    float: left;
+    display: block;
+}
+
+#two{
+    width: 82%;
+    margin: 2% auto;
+}
+
+.welcome{
+    width: 100%;
+}
+
+.welcome p{
+    margin-right: 4%;
+}
+
+.welcome img{
+    float: left;
+    margin-right: 1%;
+    height: 140px;
+    width: 125px;
+}
+
+.hours{
+    float: left;
+    width: 100%;
+}
+
+.location{
+    float: left;
+    width: 100%;
+}
+
+.social{
+    float: left;
+    width: 100%;
+}
+
+.social img{
+    height: 45px;
+    width: 45px;
+}
+
+#main{
+    width: 65%;
+    margin: 0 2%;
+    float: left;
+}
+
+
+#containBoxes{
+    width: 97%;
+    clear: both;
+    float: left;
+    margin-left: 3.5%;
+    margin-top: 1.5%;
+}
+
+.promo{
+    margin-right: 1%;
+    width: 30%;
+    height: 280px;
+    float: left;
+    border:  2px dotted #666;
+}
+
+.promo ul li{
+    list-style-image: url(../images/dumbbell_icon.png);
+    
+}
+
+footer{
+    background-color: #6A1B91;
+    clear: both;
+    margin: 0;
+    text-align: center;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+
+
+/*===========Slider Rules==========*/
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,600);	
+
+/*use if putting a custom slider for promotional use */
+
+
+/* Slider styles */
+
+/* Text slides responsive font sizes */
+.just_text h3{
+	font-size: 145%;
+}
+
+#banner .caption{
+   font-size: 120%;
+}
+
+.just_text p{
+   font-size: 120%;
+}
+
